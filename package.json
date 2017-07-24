@@ -1,0 +1,23 @@
+{
+  "name": "music-tools",
+  "version": "0.0.1",
+  "description": "Small web tools for musicians",
+  "main": "notes.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocarroll/music-tools.git"
+  },
+  "author": "Neil O'Carroll <neilocarroll91@gmail.com> (neilocarroll.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nocarroll/music-tools/issues"
+  },
+  "homepage": "https://github.com/nocarroll/music-tools#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
