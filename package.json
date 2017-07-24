@@ -2,7 +2,7 @@
   "name": "music-tools",
   "version": "0.0.1",
   "description": "Small web tools for musicians",
-  "main": "notes.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "cover": "node ./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
