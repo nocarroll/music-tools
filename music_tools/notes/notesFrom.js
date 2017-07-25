@@ -1,11 +1,12 @@
 'use strict'
 
-/**
- * Returns an array of chromatic notes starting from the given note, defaulting to C
- */
-// import the notes module
 const notes = require('./notes')
 
+ /**
+ *  Returns an array of 12 chromatic notes starting from the given note, defaulting to C
+ * @param {String} root 
+ * @return {string[]} notesFrom(root)
+ */
 const notesFrom = (root) => {
     // build an array of notes from this empty array
     let ordered = []
